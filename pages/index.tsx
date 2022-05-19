@@ -114,7 +114,7 @@ const Home: NextPage = () => {
         <source src="/bg_video.mp4" />
       </video>
       <div className="wrapper">
-        <h2>Welcome To Carbon Credit</h2>
+        <h2>Purchase Carbon Credit</h2>
         <div className="container">
           {types.map((type, index) => {
             return (
