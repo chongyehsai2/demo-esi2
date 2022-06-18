@@ -139,12 +139,12 @@ const Home: NextPage = () => {
                     if (type.label === types[0].label) {
                       setShowModal(true);
                     } else {
-                      router.push("/our-project");
+                      router.push("/admin");
                     }
                   }}
                 >
                   {" "}
-                  RM {`${type.price}`} | Buy Now
+                  Admin Login
                 </Button>               
               </div>
             );
