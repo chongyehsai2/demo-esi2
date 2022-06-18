@@ -80,14 +80,14 @@ const ModalStyled = styled(Modal)`
 
 const types = [
   {
-    label: "BUY CARBON OFFSET",
-    desc: "Offset the emissions of your daily activities for one month.",
+    label: "BUY CARBON OFFSET FOR YOUR COMPANY",
+    desc: "Offset the emissions of your business activities for RM12 per metric ton of carbon.",
     price: 12,
     image: "/person.svg",
   },
   {
     label: "CARBON OFFSET PROVIDER",
-    desc: "Offset the emissions of your business activities for one month.",
+    desc: "Sell your carbon offset with us now.",
     price: 12,
     image: "/company.svg",
   },
@@ -114,7 +114,7 @@ const Home: NextPage = () => {
         <source src="/bg_video.mp4" />
       </video>
       <div className="wrapper">
-        <h2>Purchase Carbon Credit</h2>
+        <h2>One Stop Carbon Solution</h2>
         <div className="container">
           {types.map((type, index) => {
             return (
@@ -132,7 +132,7 @@ const Home: NextPage = () => {
                   }}
                 >
                   {" "}
-                  Join Us
+                  RM {`${type.price}`} | Join Us
                 </Button>               
               </div>
             );
