@@ -80,13 +80,13 @@ const ModalStyled = styled(Modal)`
 
 const types = [
   {
-    label: "INDIVIDUAL OFFSET",
+    label: "BUY CARBON OFFSET",
     desc: "Offset the emissions of your daily activities for one month.",
     price: 12,
     image: "/person.svg",
   },
   {
-    label: "BUSINESS OFFSET",
+    label: "CARBON OFFSET PROVIDER",
     desc: "Offset the emissions of your business activities for one month.",
     price: 12,
     image: "/company.svg",
@@ -127,22 +127,12 @@ const Home: NextPage = () => {
                     if (type.label === types[0].label) {
                       setShowModal(true);
                     } else {
-                      router.push("/signup");
+                      router.push("/our-project");
                     }
                   }}
                 >
                   {" "}
-                  RM {`${type.price}`} | Buy Now
-                  onClick={() => {
-                    if (type.label === types[0].label) {
-                      setShowModal(true);
-                    } else {
-                      router.push("/admin");
-                    }
-                  }}
-                >
-                  {" "}
-                  Admin Login
+                  Join Us
                 </Button>               
               </div>
             );
