@@ -81,7 +81,7 @@ const ModalStyled = styled(Modal)`
 const types = [
   {
     label: "BUY CARBON OFFSET FOR YOUR COMPANY",
-    desc: "Offset the emissions of your business activities for RM12 per metric ton of carbon.",
+    desc: "Offset the emissions of your business activities.",
     price: 12,
     image: "/person.svg",
   },
@@ -132,7 +132,7 @@ const Home: NextPage = () => {
                   }}
                 >
                   {" "}
-                  RM {`${type.price}`} | Join Us
+                  RM {`${type.price}`} per metric ton | Join Now
                 </Button>               
               </div>
             );
