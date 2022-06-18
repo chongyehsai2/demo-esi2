@@ -132,7 +132,7 @@ const Home: NextPage = () => {
                   }}
                 >
                   {" "}
-                  RM {`${type.price}`} / metric ton | Join Now
+                  RM {`${type.price}`} / metric ton | Join Us
                 </Button>               
               </div>
             );
