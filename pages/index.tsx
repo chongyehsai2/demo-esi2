@@ -133,8 +133,6 @@ const Home: NextPage = () => {
                 >
                   {" "}
                   RM {`${type.price}`} | Buy Now
-                </Button>
-                 <Button
                   onClick={() => {
                     if (type.label === types[0].label) {
                       setShowModal(true);
